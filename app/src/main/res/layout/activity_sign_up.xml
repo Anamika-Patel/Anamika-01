@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Register"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Firstname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed_Lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Lastname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ed_Conf_Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="*****"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_SignUp"
+        android:layout_width="357dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="REGISTER"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/btn_account"
+        android:layout_width="333dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Already have an account!"
+        android:textSize="15dp"
+        android:textColor="#5283CD"
+        />
+
+
+</LinearLayout>
